@@ -16,7 +16,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "TelegramBots")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://TelegramBot:kundanv1006x@telegrambot.phzuxsj.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5143024716")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(Id Owner Id)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001942558393")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "movie_downloader_channel") # For Force Subscription
